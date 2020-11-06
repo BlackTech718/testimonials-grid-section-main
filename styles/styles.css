@@ -85,6 +85,8 @@ body {
 .box {
   border-radius: 5px;
   margin-bottom: 25px;
+  -webkit-box-shadow: 1.5px 1.5px 17px #48556a;
+          box-shadow: 1.5px 1.5px 17px #48556a;
 }
 
 .box-1 {
@@ -95,13 +97,15 @@ body {
   background-image: url(/testimonials-grid-section-main/images/bg-pattern-quotation.svg);
   background-repeat: no-repeat;
   background-position: right;
+  line-height: 1.3rem;
 }
 
 .box-2 {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
   grid-area: box-2;
-  background-color: #cfcfcf;
+  background-color: #48556a;
+  line-height: 1.3rem;
 }
 
 .box-3 {
@@ -109,6 +113,7 @@ body {
   -ms-grid-column: 1;
   grid-area: box-3;
   background-color: white;
+  line-height: 1.3rem;
 }
 
 .box-4 {
@@ -116,6 +121,7 @@ body {
   -ms-grid-column: 1;
   grid-area: box-4;
   background-color: #19212e;
+  line-height: 1.3rem;
 }
 
 .box-5 {
@@ -123,9 +129,13 @@ body {
   -ms-grid-column: 1;
   grid-area: box-5;
   background-color: white;
+  line-height: 1.4rem;
 }
 
 @media screen and (min-width: 760px) {
+  body {
+    padding-top: 100px;
+  }
   #grid {
     padding-top: 50px;
     max-width: 80%;

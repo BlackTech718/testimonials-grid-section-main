@@ -89,6 +89,7 @@ body{
 .box{
     border-radius: 5px;
     margin-bottom: 25px;
+    box-shadow: 1.5px 1.5px 17px $Verydarkgrayisblue
 }
 .box-1{
     grid-area: box-1;
@@ -96,22 +97,27 @@ body{
     background-image: url(/testimonials-grid-section-main/images/bg-pattern-quotation.svg);
     background-repeat:no-repeat;
     background-position: right;
+    line-height: 1.3rem;
 }
 .box-2{
     grid-area: box-2;
-    background-color:$Lightgray;
+    background-color:$Verydarkgrayisblue;
+    line-height: 1.3rem;
 }
 .box-3{
     grid-area: box-3;
     background-color: $White;
+    line-height: 1.3rem;
 }
 .box-4{
     grid-area: box-4;
     background-color: $Verydarkblackishblue;
+    line-height: 1.3rem;
 }
 .box-5{
     grid-area: box-5;
     background-color: $White;
+    line-height: 1.4rem;
 }
 
 
@@ -119,6 +125,9 @@ body{
 
 // media query for 660 px;
 @media screen and (min-width:760px){
+    body{
+        padding-top: 100px;
+    }
     #grid{
         padding-top:50px;
         max-width: 80%;
